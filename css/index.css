@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 10px;
+    background-color: #eee;
+    position: relative;
+}
+.header{
+    margin:30px 85px;
+    width: 300px;
+}
+.header h1{
+    color: rgb(81,31,80);
+}
+.header p{
+    color: rgb(172,160,170);
+}
+.parent{
+    position: relative;
+    top: -178px;
+    left: 487px;
+}
+.section{
+    color: rgb(81,31,80);
+    position: relative;
+}
+.section-two{
+    left: 30px;
+}
+.section-one,
+.section-two,
+.section-three{
+    background-color: rgb(244,234,245);
+    width: 310px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.section-one p{
+    position: absolute;
+    top: -4px;
+    left: 115px;
+}
+.section-two p{
+    position: absolute;
+    top: 45px;
+    left: 112px;
+}
+.section-three p{
+    position: absolute;
+    top: 97px;
+    left: 113px;
+}
+.general{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Irene-Roberts{
+    position: absolute;
+    top: 20px;
+}
+.Anne-Wallace{
+    top: 40px;
+}
+.Colton-Smith,
+.Anne-Wallace,
+.Irene-Roberts{
+    margin-top: -163px;
+    margin-left: 20px;
+    background-color: rgb(81,31,80);
+    width: 300px;
+    height: 220px;
+    padding: 10px;
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.general h1{
+    color: white;
+    position: absolute;
+    font-size: 19px;
+    top: 17px;
+    left: 98px;
+}
+.general h2{
+    color: rgb( 189,112,166);
+    position: absolute;
+    font-size: 15px;
+    top: 48px;
+    left: 106px;
+}
+.general p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
